@@ -1,0 +1,57 @@
+/*­­­­­­­Version: {version_1} Author: {Burkovetskaya Natasha} E­mail: {natashaburkovetskaya@gmail.com} ­­­­­­­*/
+/*­­­­­­­General style for footer ­­­­­­­*/
+#footer {
+    margin-left: -10%;
+    max-width: 1260px;
+    background-color: #7e7e7e;
+}
+
+#footer h4, a {
+    color: #fff;
+}
+#footer h4{
+    font-size: 15px;
+    line-height: .5em;
+}
+
+#footer .twitter_feed, .sitemap, .social_networks, .logo_copy {
+    padding-top: 1%;
+}
+
+#footer .twitter_feed, .sitemap {
+    padding-left: 2.6%;
+    padding-top: 1%;
+}
+
+#footer .logo_copy {
+    padding-left: 6%;
+}
+
+.twitter_feed p, .logo_copy p {
+    color: #fff;
+    font-size: 11px;
+}
+
+.twitter_feed p:nth-child(2) {
+    text-decoration: underline;
+}
+
+/*­­­­­­­Style for footer navigation ­­­­­­­*/
+#site_navigation ul {
+    display: inline-block;
+    padding: 3% 6%;
+}
+
+#site_navigation a {
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+#site_navigation a:hover {
+    color: #29c5e6;
+}
+
+.sprite {
+    background: url("../images/sprite.png") no-repeat;
+    height: 60px;
+}

@@ -1,0 +1,54 @@
+/*­­­­­­­Version: {version_1} Author: {Burkovetskaya Natasha} E­mail: {natashaburkovetskaya@gmail.com} ­­­­­­­*/
+/* Large Devices, Wide Screens */
+@media only screen and (min-width: 1200px) {
+    .container {
+        width: 1260px;
+    }
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width: 1200px) {
+    .container {
+        width: 1200px;
+    }
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 992px) {
+    .container {
+        width: 970px;
+        margin-left: 0;
+        padding: 0;
+    }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .container {
+        width: 750px;
+        margin-left: 0;
+        padding: 0;
+    }
+
+}
+
+@media only screen and (max-width: 480px) {
+    /* For mobile phones: */
+    .container {
+        width: 480px;
+        margin-left: 0;
+        padding: 0;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    /* For mobile phones: */
+    .container {
+        width: 320px;
+        margin-left: 0;
+        padding: 0;
+
+    }
+}

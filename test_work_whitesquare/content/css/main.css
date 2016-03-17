@@ -1,0 +1,104 @@
+/*­­­­­­­Version: {version_1} Author: {Burkovetskaya Natasha} E­mail: {natashaburkovetskaya@gmail.com} ­­­­­­­*/
+/*­­­­­­­General style for main part­­­­­­­*/
+#main {
+    margin: 0 3%;
+}
+
+#main img {
+    vertical-align: baseline;
+}
+
+#main h4 {
+    font-size: 14px;
+    line-height: 2.5em;
+}
+
+#main h4::before {
+    content: url("../images/square.png");
+    padding-right: 5px;
+}
+
+/*­­­­­­­Style for main part (First row)­­­­­­­*/
+#first_row {
+    padding-top: 2%;
+    padding-bottom: 1%;
+}
+
+#first_row .about_us {
+    padding: 0
+}
+
+#first_row .about_us p, .ceo_word p {
+    top: 10%;
+    transform: translateY(-14%);
+}
+
+#first_row .text1, .text2 {
+    padding: 13px;
+}
+
+#first_row .ceo_word p:last-child {
+    color: #525252;
+    font-size: 12px;
+}
+
+#first_row h4::after {
+    content: url("../images/strips1.png");
+    padding-left: 5px;
+}
+
+/*­­­­­­­Style for main part (Second row)­­­­­­­*/
+#second_row {
+    max-width: 960px;
+    padding-bottom: 1%;
+}
+
+#second_row h5 {
+    color: #525252;
+}
+
+#second_row h4::after {
+    content: url("../images/strips2.png");
+    padding-left: 5px;
+}
+
+#second_row .support h4::after {
+    content: url("../images/strips4.png");
+    padding-left: 5px;
+}
+
+#second_row .services, .our_teams, .support {
+    padding: 0;
+}
+
+.our_teams div {
+    display: inline-block;
+}
+
+/*­­­­­­­Style for main part (Third row)­­­­­­­*/
+#third_row {
+    padding-bottom: 4%;
+}
+
+#third_row .clients_logo {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+}
+
+#third_row h4::after {
+    content: url("../images/strips3.png");
+    padding-left: 5px;
+}
+
+#third_row .clients_logo div {
+    width: 165px;
+    height: 100px;
+}
+
+.text1, .text2 {
+    display: inline-block;
+}
+

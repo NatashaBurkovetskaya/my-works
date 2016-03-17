@@ -1,0 +1,190 @@
+/*­­­­­­­Version: {version_1} Author: {Burkovetskaya Natasha} E­mail: {natashaburkovetskaya@gmail.com} ­­­­­­­*/
+/*­­­­­­­General style­­­­­­­*/
+body {
+    width: 1260px;
+    background-color: #fbfbfb;
+}
+
+.container {
+    margin-left: 10%;
+    padding: 0;
+}
+
+/*­­­­­­­General style for headers and paragraphs ­­­­­­­*/
+body h1, h2, h3, h4, h5 {
+    text-transform: uppercase;
+    margin: 0;
+    color: #9f9f9f;
+}
+
+body p {
+    font-family: "tahoma", sans-serif;
+    color: #aaaaaa;
+    font-size: 12px;
+    margin: 0;
+}
+
+/*­­­­­­­General links style­­­­­­­*/
+ul, ol {
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    list-style: none;
+}
+
+/*­­­­­­­General button style­­­­­­­*/
+body button {
+    border: none;
+    background: none;
+    text-decoration: underline;
+    color: #525252;
+    font-size: 12px;
+    outline: none;
+}
+
+/*­­­­­­­Header style­­­­­­­*/
+#header .top_line {
+    margin-left: -10%;
+    height: 5px;
+    max-width: 1260px;
+    background-color: #7e7e7e;
+}
+
+#header .header_logo {
+    padding-top: 1.8%;
+}
+
+#header form {
+    margin-left: 9%;
+    margin-top: 7%;
+    font: normal 14px arial, sans-serif;
+}
+
+#header form input[type="search"] {
+    width: 159px;
+    height: 31px;
+    color: #aaaaaa;
+    background-color: #f3f3f3;
+    border: 1px solid #e7e7e7;
+    outline: none;
+}
+
+input[type="submit"] {
+    background-color: #8f8f8f;
+    color: #fff;
+    width: 42px;
+    height: 32px;
+    margin-left: -3%;
+    border: none;
+}
+
+input[type="submit"]:hover {
+    background-color: #29c5e6;
+    outline: none;
+}
+
+/*­­­­­­­Header navigation style­­­­­­­*/
+#main_navigation {
+    max-width: 960px;
+    background-color: #f3f3f3;
+    border: 1px solid #e7e7e7;
+    margin-left: 4.4%;
+    margin-top: 2%;
+    padding: 0;
+}
+
+#main_navigation li {
+    display: inline-block;
+    width: 116px;
+}
+
+#main_navigation a {
+    display: block;
+    text-transform: uppercase;
+    color: #b2b2b2;
+    text-align: center;
+    padding: 8%;
+}
+
+#main_navigation a:hover {
+    color: #fff;
+    background-color: #29c5e6;
+    line-height: 1.41em;
+}
+
+#main_navigation a, #banner_navigation a {
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+/*­­­­­­­Banner style­­­­­­­*/
+#banner {
+    position: relative;
+}
+
+#banner .slides {
+    margin-top: 2%;
+    margin-left: 2%;
+}
+
+#banner .text_banner {
+    position: absolute;
+    left: 5%;
+    bottom: 54%;
+}
+
+.text_banner h1 {
+    color: #5a5a5a;
+    font-size: 36px;
+}
+
+.text_banner h3 {
+    font-size: 16px;
+    line-height: 10px;
+}
+
+/*­­­­­­­Banner navigation style­­­­­­­*/
+#banner_navigation {
+    background-color: #f3f3f3;
+    max-width: 960px;
+    left: 3.3%;
+}
+
+#banner_navigation li {
+    display: inline-block;
+    height: 100%;
+}
+
+#banner_navigation a {
+    display: block;
+    text-transform: uppercase;
+    color: #b2b2b2;
+    margin: 12px 15px 17px 23px;
+}
+
+#banner_navigation a:hover {
+    color: #29c5e6;
+}
+
+#banner_navigation ol {
+    counter-reset: myCounter;
+}
+
+#banner_navigation a:before {
+    counter-increment: myCounter;
+    content: counter(myCounter);
+    color: white;
+    background: #8f8f8f;
+    display: inline-block;
+    text-align: center;
+    margin: 0 5px;
+    line-height: 24px;
+    width: 24px;
+    height: 24px;
+}
+
+#banner_navigation a:hover::before {
+    background-color: #29c5e6;
+}
