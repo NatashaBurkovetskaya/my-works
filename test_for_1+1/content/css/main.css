@@ -1,0 +1,141 @@
+/* Author: {Burkovetskaya Natasha} E­mail: {natashaburkovetskaya@gmail.com} */
+/* General style */
+body {
+    margin: 0 auto;
+    width: 1920px;
+    height: 1080px;
+    font-family: arial, sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/* General links and search style */
+a, input[type="text"] {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+li {
+    list-style: none;
+}
+
+/* General style for headers and paragraphs */
+h3 {
+    text-transform: uppercase;
+    font-size: 1.9em;
+}
+
+p {
+    font-size: 1.4em;
+}
+
+/* Style for content */
+.h_menu:hover, .f_menu:hover, .f_search:hover, .next:hover, .prev:hover {
+    cursor: pointer;
+    color: #0098a4;
+    opacity: 1;
+}
+
+.slides {
+    display: block;
+    position: relative;
+    width: 1890px;
+    height: 930px;
+}
+
+/* Style for content (gradient and border) */
+.century:after, .dnipro:after,
+.bvb:after, .love:after, .euromaidan:after, .fajna:after, .paris:after,
+.tcn:after, .merkel:after, .freymut:after, .tornado:after {
+    content: '';
+    position: absolute;
+    bottom: 3px;
+    height: 100px;
+    width: 100%;
+    right: 0%;
+    z-index: 200;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.7), transparent);
+    border-bottom: 4px solid transparent;
+}
+
+.century:after, .bvb:after, .paris:after, .tcn:after {
+    border-bottom-color: #fc3029;
+}
+
+.love:after, .fajna:after, .freymut:after {
+    border-bottom-color: #aa2390;
+}
+
+.dnipro:after, .merkel:after {
+    border-bottom-color: #eebd3c;
+}
+
+.euromaidan:after, .tornado:after {
+    border-bottom-color: #0098a4;
+}
+
+/* Style for content (border hover) */
+.century:hover, .dnipro:hover,
+.bvb:hover, .love:hover, .euromaidan:hover, .fajna:hover, .paris:hover,
+.tcn:hover, .merkel:hover, .freymut:hover, .tornado:hover {
+    border: 5px solid #0098a4;
+    box-shadow: 0 0 10px rgba(0, 152, 164, 1);
+    z-index: 200;
+}
+
+/* Style for content (everything for text) */
+.text .new {
+    display: inline-block;
+    background-color: #db322e;
+    text-transform: uppercase;
+    padding: 4px 3px 4px 3px;
+    font-size: 1.2em;
+}
+
+.text {
+    position: absolute;
+    z-index: 300;
+    bottom: 4%;
+    left: 4%;
+}
+
+.text p, h3 {
+    margin: 0;
+    color: #fff;
+}
+
+/* Style for content (image with background) */
+.bvb {
+    position: relative;
+    width: 288px;
+    height: 288px;
+    background: #2a2a38;
+}
+
+.bvb img {
+    padding: 8% 0 0 16%;
+}
+
+.love {
+    position: relative;
+    width: 288px;
+    height: 288px;
+    background: #e1b3ad;
+}
+
+.love img {
+    padding: 22% 0 0 11%;
+}
+
+.tornado {
+    width: 596px;
+    height: 288px;
+    background: #2a2a38;
+}
+
+.tornado img {
+    padding: 15% 0 0 11%;
+}

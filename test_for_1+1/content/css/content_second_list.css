@@ -1,0 +1,117 @@
+/* Author: {Burkovetskaya Natasha} E­mail: {natashaburkovetskaya@gmail.com} */
+/* Style for content second list */
+
+#second_list .row {
+    position: relative;
+    display: block;
+}
+
+section#second_list {
+    height: 910px;
+}
+
+#second_list .first_part, .second_part, .third_part {
+    display: inline-block;
+    position: relative;
+}
+
+#second_list .third_part {
+    right: 2.6%;
+}
+
+#second_list .first_part {
+    width: 15%;
+}
+
+#second_list .second_part {
+    width: 51%;
+}
+
+#second_list .third_part {
+    width: 31%;
+    bottom: 10.7%;
+}
+
+/* First part */
+#second_list .first_part {
+    width: 288px;
+    position: relative;
+    margin-left: 30px;
+}
+
+#second_list .first_part .paris {
+    display: inline-block;
+    margin-top: 19px;
+}
+
+#second_list .first_part .bvb {
+    top: 10px;
+}
+
+/* Second part */
+#second_list .second_col {
+    position: absolute;
+    display: inline-block;
+    margin-left: 1%;
+    bottom: -1%
+}
+
+#second_list .second_part .tcn {
+    display: inline-block;
+    position: absolute;
+    bottom: 100%;
+    left: 64%;
+}
+
+#second_list .second_part .century {
+    position: relative;
+    left: 32%;
+    top: 10px;
+}
+
+#second_list .second_part .merkel, #second_list .century {
+    display: inline-block;
+
+}
+
+#second_list .second_part .century {
+    left: 32%;
+    top: 10px;
+}
+
+#second_list .second_part .dnipro {
+    position: relative;
+    bottom: 24px;
+}
+
+#second_list .second_part .merkel {
+    position: relative;
+    bottom: 14px;
+}
+
+/* Third part */
+
+#second_list .third_part .fajna, .freymut {
+    display: inline-block;
+}
+
+#second_list .third_part .fajna {
+    position: relative;
+    bottom: 20px;
+}
+
+#second_list .third_part .freymut {
+    position: absolute;
+    bottom: 33%;
+    left: 52%;
+}
+
+#second_list .third_part .bvb {
+    bottom: 3px;
+}
+
+#second_list .third_part .tornado {
+    position: relative;
+    top: 11px;
+}
+

@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>Тестове завдання</title>
+    <link type="text/css" rel="stylesheet" href="content/css/style.css">
+    <script src="content/js/jquery-1.11.3.min.js"></script>
+    <script src="content/js/main.js"></script>
+    <script>
+        window.onload = function () {
+
+            slider.init({
+                slides: document.querySelectorAll('.slides section'),
+                prev: document.querySelector('.prev'),
+                next: document.querySelector('.next')
+            });
+        };
+    </script>
+</head>
+<body>
+<div class="wrapper">
+    <!--HEADER-->
+    <header class="header">
+        <nav class="header_nav">
+            <ul>
+                <li><a href="#" class="h_menu">Меню</a></li>
+            </ul>
+        </nav>
+        <div class="search">
+            <label> <input type="text" name="search" id="search" placeholder="Пошук"></label>
+        </div>
+    </header>
+    <!--CONTENT-->
+    <div class="slides">
+        <!--CONTENT FIRST LIST-->
+        <section id="first_list" class="row show">
+            <article class="first_part">
+                <div class="century">
+                    <a href="#"><img src="content/images/century.png" alt=""></a>
+
+                    <div class="text">
+                        <p class="new">Нові серії</p>
+
+                        <h3>Величне століття</h3>
+
+                        <p>Сезон 4, серія 724</p>
+                    </div>
+                </div>
+                <div class="dnipro">
+                    <a href="#"><img src="content/images/Dnipro.png" alt=""></a>
+
+                    <div class="text">
+                        <h3>Севілія / дніпро</h3>
+
+                        <p>Єврокубок</p>
+                    </div>
+                </div>
+            </article>
+            <article class="second_part">
+                <div class="second_col">
+                    <div class="bvb">
+                        <a href="#"><img src="content/images/bvb.png" alt=""></a>
+
+                        <div class="text">
+                            <h3>байер / іскра</h3>
+
+                            <p>Єврокубок</p>
+                        </div>
+                    </div>
+                    <div class="love">
+                        <a href="#"><img src="content/images/love.png" alt=""></a>
+
+                        <div class="text">
+                            <h3>Онлайн любов</h3>
+
+                            <p> Серія 15</p>
+                        </div>
+                    </div>
+                    <div class="euromaidan">
+                        <a href="#"><img src="content/images/euromaidan.png" alt=""></a>
+
+                        <div class="text">
+                            <h3>ЄВРОМАЙДАН</h3>
+
+                            <p>Фільм</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="fajna">
+                    <a href="#"><img src="content/images/fajna.png" alt=""></a>
+
+                    <div class="text">
+                        <h3>Файна Юкраїна</h3>
+
+                        <p>Серія 4</p>
+                    </div>
+                </div>
+                <div class="paris">
+                    <a href="#"><img src="content/images/Paris.png" alt=""></a>
+
+                    <div class="text">
+                        <h3>Пустий Париж</h3>
+
+                        <p>Фільм</p>
+                    </div>
+                </div>
+            </article>
+            <article class="third_part">
+                <div class="tcn">
+                    <a href="#"><img src="content/images/tcn.png" alt=""></a>
+
+                    <div class="text">
+                        <h3>ТСН</h3>
+
+                        <p>Новини</p>
+                    </div>
+                </div>
+                <div class="merkel">
+                    <a href="#"><img src="content/images/Merkel.png" alt=""></a>
+
+                    <div class="text">
+                        <h3>Меркель</h3>
+
+                        <p>Фільм</p>
+                    </div>
+                </div>
+                <div class="tornado">
+                    <a href="#"><img src="content/images/tornado.png" alt=""></a>
+                </div>
+                <div class="freymut">
+                    <a href="#"><img src="content/images/Freymut.png" alt=""></a>
+
+                    <div class="text">
+                        <h3>ФРЕЙМУТ</h3>
+
+                        <p>Львів</p>
+                    </div>
+                </div>
+            </article>
+        </section>
+        <!--CONTENT SECOND LIST-->
+        <section id="second_list" class="row no_show">
+            <article class="first_part">
+                <div class="bvb">
+                    <a href="#"><img src="content/images/bvb.png" alt=""></a>
+
+                    <div class="text">
+                        <h3>байер / іскра</h3>
+
+                        <p>Єврокубок</p>
+                    </div>
+                </div>
+                <div class="paris">
+                    <a href="#"><img src="content/images/Paris.png" alt=""></a>
+
+                    <div class="text">
+                        <h3>Пустий Париж</h3>
+
+                        <p>Фільм</p>
+                    </div>
+                </div>
+
+            </article>
+            <article class="second_part">
+                <div class="second_col">
+                    <div class="dnipro">
+                        <a href="#"><img src="content/images/Dnipro.png" alt=""></a>
+
+                        <div class="text">
+                            <h3>Севілія / дніпро</h3>
+
+                            <p>Єврокубок</p>
+                        </div>
+                    </div>
+                    <div class="merkel">
+                        <a href="#"><img src="content/images/Merkel.png" alt=""></a>
+
+                        <div class="text">
+                            <h3>Меркель</h3>
+
+                            <p>Фільм</p>
+                        </div>
+                    </div>
+                    <div class="love">
+                        <a href="#"><img src="content/images/love.png" alt=""></a>
+
+                        <div class="text">
+                            <h3>Онлайн любов</h3>
+
+                            <p> Серія 15</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="tcn">
+                    <a href="#"><img src="content/images/tcn.png" alt=""></a>
+
+                    <div class="text">
+                        <h3>ТСН</h3>
+
+                        <p>Новини</p>
+                    </div>
+                </div>
+                <div class="century">
+                    <a href="#"><img src="content/images/century.png" alt=""></a>
+
+                    <div class="text">
+                        <p class="new">Нові серії</p>
+
+                        <h3>Величне століття</h3>
+
+                        <p>Сезон 4, серія 724</p>
+                    </div>
+                </div>
+
+            </article>
+            <article class="third_part">
+                <div class="fajna">
+                    <a href="#"><img src="content/images/fajna.png" alt=""></a>
+
+                    <div class="text">
+                        <h3>Файна Юкраїна</h3>
+
+                        <p>Серія 4</p>
+                    </div>
+                </div>
+                <div class="bvb">
+                    <a href="#"><img src="content/images/bvb.png" alt=""></a>
+
+                    <div class="text">
+                        <h3>байер / іскра</h3>
+
+                        <p>Єврокубок</p>
+                    </div>
+                </div>
+                <div class="tornado">
+                    <a href="#"><img src="content/images/tornado.png" alt=""></a>
+                </div>
+                <div class="freymut">
+                    <a href="#"><img src="content/images/Freymut.png" alt=""></a>
+
+                    <div class="text">
+                        <h3>ФРЕЙМУТ</h3>
+
+                        <p>Львів</p>
+                    </div>
+                </div>
+            </article>
+
+        </section>
+    </div>
+    <!--FOOTER-->
+    <footer class="footer">
+        <nav class="footer_nav">
+            <ul>
+                <li><a href="#" class="f_menu">Меню</a></li>
+                <li><a href="#" class="prev f_back">Назад</a></li>
+                <li><a href="#" class="next f_next">Далі</a></li>
+                <li><a href="#" class="f_search">Пошук</a></li>
+            </ul>
+        </nav>
+    </footer>
+</div>
+</body>
+</html>

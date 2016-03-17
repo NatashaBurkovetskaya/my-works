@@ -1,0 +1,38 @@
+/* Author: {Burkovetskaya Natasha} E­mail: {natashaburkovetskaya@gmail.com} */
+/* Header style */
+.wrapper {
+    background-color: #000;
+}
+
+/* Header navigation style */
+.header .header_nav {
+    display: inline-block;
+}
+
+.header_nav ul li a, input[type="text"] {
+
+    font-size: 1.9em;
+}
+
+.header_nav ul li a:before {
+    content: url("../images/menu.png");
+    vertical-align: sub;
+    padding: 0 16px 0 7px;
+}
+
+.header .search {
+    display: inline-block;
+    float: right;
+}
+
+input[type="text"] {
+    border: none;
+    background-color: #000;
+    width: 173px;
+    margin: 8% -26% 0 0;
+}
+
+label:after {
+    content: url("../images/search.png");
+    vertical-align: sub;
+}

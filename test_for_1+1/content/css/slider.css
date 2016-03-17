@@ -1,0 +1,26 @@
+/* Author: {Burkovetskaya Natasha} E­mail: {natashaburkovetskaya@gmail.com} */
+/* Style for slider */
+.slides {
+    position: relative;
+    display: block;
+    overflow: hidden;
+}
+
+section {
+    position: absolute;
+    opacity: 0;
+    transition: 1s opacity;
+}
+
+.no_show {
+    display: none;
+    overflow: hidden;
+}
+
+.show {
+    opacity: 1;
+    position: static;
+    transition: 1s opacity;
+}
+
+
