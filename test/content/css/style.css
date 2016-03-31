@@ -26,13 +26,6 @@ ul li {
     line-height: 40px;
 }
 
-/*.box_shadow{*/
-/*display: inline-block;*/
-/*line-height: 0;*/
-/*box-shadow: 0 0 10px 10px red inset;*/
-/*z-index: 1;*/
-/*}*/
-
 /*­­­­­­­General button style­­­­­­­*/
 
 .main_menu button {
@@ -91,12 +84,20 @@ ul.main_menu {
     content: url("../images/canceled.png");
 }
 
+.canceled_order .canceled {
+    color: #cc3300;
+}
+
 .current_order .sent_by_courier:before {
     content: url("../images/sent_by_courier.png");
 }
 
 .finished_order .delivered:before {
     content: url("../images/delivered.png");
+}
+
+.finished_order .delivered {
+    color: #48ad00;
 }
 
 /*­­­­­­­Style for content­­­­­­­*/
@@ -226,6 +227,8 @@ span.cost {
 /*­­­­­­­Style for pointers­­­­­­­*/
 li.sing, li.current_sing {
     width: 2%;
+    height: 17px;
+    z-index: 10;
 }
 
 .sing, .current_sing {
