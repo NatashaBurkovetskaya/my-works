@@ -1,0 +1,218 @@
+body {
+    background: #fff;
+    font-family: Verdana Bold, sans-serif;
+    font-size: 16px;
+}
+
+ul {
+    padding: 8px 23px 1px 23px;
+    margin: 0;
+    border-bottom: 1px solid #ccc;
+}
+
+ul li {
+    display: inline-block;
+    line-height: 40px;
+}
+
+
+.container {
+    width: 925px;
+    background: #fff;
+    height: 850px;
+    /*position: relative;*/
+    /*z-index: -1;*/
+}
+/*.box_shadow{*/
+    /*display: inline-block;*/
+    /*line-height: 0;*/
+    /*box-shadow: 0 0 10px 10px red inset;*/
+    /*z-index: 1;*/
+/*}*/
+
+
+.main_menu button {
+    border: none;
+    background-color: #fff;
+    color: #25a7df;
+    font-size: 1.4em;
+    border-bottom: 1px dotted #25a7df;
+}
+
+.main_menu button:hover {
+    color: #000;
+    border: none;
+}
+
+.main_menu button:focus {
+    color: #000;
+    border: none;
+    outline: none;
+}
+
+.main_menu li {
+    margin-right: 15px;
+}
+ul.main_menu {
+    padding-bottom: 15px;
+}
+
+.canceled_order, .current_order, .finished_order {
+    background-color: #f4fbfd;
+}
+
+.orders .header li, .canceled_order li, .current_order li, .finished_order li {
+    width: 22%;
+}
+.canceled_order .canceled, .current_order .sent_by_courier, .finished_order .delivered {
+    width: 52%;
+}
+.content .header li:first-child, .content .product {
+    width: 59%;
+}
+.content .quantity{
+    width: 25%;
+}
+.content .header li {
+    width: 19.8%;
+}
+.canceled_order .canceled:before{
+    content: url("../images/canceled.png");
+}
+.current_order .sent_by_courier:before{
+    content: url("../images/sent_by_courier.png");
+}
+.finished_order .delivered:before {
+    content: url("../images/delivered.png");
+}
+
+.content .header li:last-child {
+    text-align: right;
+}
+
+.content .header {
+    padding: 12px;
+    border-bottom:1px dotted #ccc;
+}
+
+.header {
+    font-weight: bold;
+}
+
+.content {
+    margin-left: 13px;
+}
+
+.content .personal_data {
+    line-height: 5px;
+}
+
+.content .personal_data div {
+    display: inline-block;
+}
+
+.content .personal_data .questions {
+    color: #999;
+    margin-right: 51px;
+}
+.content .product{
+    position: relative;
+}
+.content .product:before{
+    content: url("../images/book.png");
+    width: 20px;
+    height: 29px;
+    position: absolute;
+    bottom: -7px;
+    left: -3px;
+}
+
+.first_product, .second_product {
+    padding-top: 15px;
+    padding-bottom: 17px;
+}
+
+.first_product div, .second_product div {
+    display: inline-block;
+    vertical-align: top;
+}
+.first_product .product {
+    line-height: 20px;
+}
+.second_product .product {
+    line-height: 17px;
+}
+.book {
+    width: 288px;
+    font-size: .8em;
+}
+
+.book p {
+    margin: 0;
+}
+.book a {
+    text-decoration: none;
+    color: #446699;
+}
+
+.content .quantity {
+    margin: 0 34px 0 30px;
+}
+
+.order_price, .delivery {
+    border-top: 1px dotted #ccc;
+}
+
+.order_price, .delivery{
+    padding: 15px 0 23px 0;
+
+}
+.order_price{
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 50px;
+}
+.delivery {
+    text-align: right;
+}
+.order_price .sum {
+    display: inline-block;
+    float: right;
+}
+
+.order_price .bonus {
+    display: inline-block;
+    background-color: #edf1f2;
+    padding: 6px;
+}
+.bonus span {
+    font-weight: bold;
+}
+span.old_price {
+    display: block;
+    color: #a1a1a1;
+    text-decoration: line-through;
+}
+span.cost {
+    color: #f15e00;
+    font-weight: bold;
+}
+li.sing, li.current_sing {
+    width: 2%;
+}
+.sing, .current_sing {
+    content: url("../images/sing_not_active.png");
+    width: 30px;
+    height: 20px;
+}
+.sing_active{
+    content: url("../images/active.png");
+    width: 30px;
+    height: 20px;
+}
+.active {
+    background-color:#fff;
+    border-bottom: none;
+}
+
+
+

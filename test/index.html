@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Test</title>
+    <link rel="stylesheet" type="text/css" href="content/css/main.css">
+</head>
+<body>
+<div class="container box_shadow">
+    <nav>
+        <ul class="main_menu">
+            <li class="all_orders">
+                <button id="all_orders" type="button">Все заказы</button>
+            </li>
+            <li>
+                <button id="current" type="button">Текущие</button>
+            </li>
+            <li>
+                <button id="ended" type="button">Завершенные</button>
+            </li>
+            <li>
+                <button id="cans" type="button">Отмененные</button>
+            </li>
+        </ul>
+    </nav>
+    <div class="orders">
+        <ul class="header">
+            <li>Дата заказа &#8595;</li>
+            <li> &#8470; заказа</li>
+            <li>Текущий статус</li>
+        </ul>
+        <ul class="canceled_order">
+            <li>9 июля 2012</li>
+            <li> &#8470; 0570</li>
+            <li class="canceled">Отменен</li>
+            <li class="sing"> </li>
+        </ul>
+        <ul class="current_order  active">
+            <li>3 июля 2012</li>
+            <li> &#8470; ME0017681</li>
+            <li class="sent_by_courier">Отправлен курьерской службой</li>
+            <li class="current_sing sing_active"> </li>
+        </ul>
+        <!-- Start Tier Drop Down -->
+        <article class="content">
+            <div class="personal_data">
+                <div class="questions">
+                    <p> Имя получателя: </p>
+
+                    <p> Электронная почта: </p>
+
+                    <p> Доставка: </p>
+
+                    <p> Оплата: </p>
+                </div>
+                <div>
+                    <p> г. Киев, ул. Саксаганского, 65, кв. 11</p>
+
+                    <p>+38 050 123-45-56</p>
+
+                    <p>Курьером лично в руки. Адрес: г. Киев, ул. Саксаганского, 65, кв. 11</p>
+
+                    <p> Наличными при получении</p>
+                </div>
+            </div>
+            <ul class="header">
+                <li>Товары в заказе</li>
+                <li>Количество</li>
+                <li>Цена</li>
+            </ul>
+            <div class="ordered_products">
+                <div class="first_product">
+                    <div class="product">
+                        <img src="content/images/first_product.png" alt="Image book">
+
+                        <div class="book">
+                            <p><a href="#">Девушка c татуировкой дракона </a> Стиг Ларссон</p>
+                            <span class="cost">138 грн.</span>
+                        </div>
+                    </div>
+                    <div class="quantity">1</div>
+                    <span class="cost">138 грн.</span>
+                </div>
+                <div class="second_product">
+                    <div class="product">
+                        <img src="content/images/second_product.png" alt="Image book">
+
+                        <div class="book">
+                            <p><a href="#">Девушка, которая взрывала воздушные замки </a> Стиг Ларссон</p>
+                            <span class="old_price">170 грн.</span>
+                            <span class="cost">138 грн.</span>
+                        </div>
+                    </div>
+
+                    <div class="quantity">1</div>
+                    <span class="cost">138 грн.</span>
+                </div>
+                <div class="delivery">
+                    Доставка:<span class="cost"> 20 грн.</span>
+                </div>
+                <div class="order_price">
+                    <div class="bonus"><span>+38 бонусов</span> за этот заказ</div>
+                    <div class="sum">
+                        Сумма заказа:<span class="cost"> 182 грн.</span>
+                    </div>
+                </div>
+            </div>
+        </article>
+        <!-- End Tier Drop Down -->
+        <ul class="finished_order">
+            <li>17 мая 2012</li>
+            <li> &#8470; 0570</li>
+            <li class="delivered">Доставлен</li>
+            <li class="sing">
+
+            </li>
+        </ul>
+        <ul class="finished_order">
+            <li>29 февраля 2012</li>
+            <li> &#8470; ME0017681</li>
+            <li class="delivered">Доставлен</li>
+            <li class="sing">
+                <!--<button class="about_order"></button>-->
+            </li>
+        </ul>
+    </div>
+</div>
+<script type="text/javascript" src="content/js/jquery-2.1.4.min.js"></script>
+<script type="text/javascript" src="content/js/main.js"></script>
+</body>
+</html>
