@@ -1,0 +1,70 @@
+/*­­­­­­­Version: {version_1} Author: {Burkovetskaya Natasha} E­mail: {natashaburkovetskaya@gmail.com} ­­­­­­­*/
+/*­­­­­­­General style­­­­­­­*/
+
+body {
+    margin: 0 auto;
+    width: 960px;
+    font-family: sans-serif;
+    padding-top: 150px;
+    -moz-transition: padding-top 0.5s ease;
+    -o-transition: padding-top 0.5s ease;
+    -webkit-transition: padding-top 0.5s ease;
+    transition: padding-top 0.5s ease;
+}
+/*­­­­­­­Header style­­­­­­­*/
+.header {
+    background-color: rgba(0, 202, 214, 0.39);
+    height: 150px;
+    width: 960px;
+    position: fixed;
+    top: 0;
+    overflow: hidden;
+    z-index: 100;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.header_nav {
+    position: absolute;
+    bottom: 0;
+    height: 60px;
+    line-height: 60px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.header_nav a {
+    display: inline-block;
+    padding: 0 20px 10px 20px;
+}
+
+.header_nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.header_nav a:hover {
+    background-color: rgba(46, 19, 230, 0.18);
+}
+/*­­­­­­­Content style­­­­­­­*/
+.content {
+    background: rgba(250, 242, 157, 0.19);
+    border: 1px solid #ccc;
+    height: 1000px;
+    margin: 50px auto;
+}
+
+.content_text {
+    margin: 30px;
+}
+/*­­­­­­­Sticky Header style­­­­­­­*/
+body.sticky {
+    padding-top: 100px;
+}
+
+body.sticky header {
+    height: 60px;
+    background-color: rgba(0, 202, 214, 0.39);
+}
