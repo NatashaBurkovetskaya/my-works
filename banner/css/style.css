@@ -1,32 +1,93 @@
-#wrapper{
+#wrapper {
     width: 300px;
     height: 250px;
-    background-color: #fffdcd;
+    background-color: rgba(251, 206, 177, 0.2);
+    position: relative;
+    overflow: hidden;
 }
+
 .banner {
     position: absolute;
     overflow: hidden;
     border: 1px black solid;
 }
 
-.text, .text1 {
-    margin: 0;
-    padding: 0;
+.text, .text1, h2 {
     font-family: sans-serif;
-    font-size: 29px;
-    color: #ff7b80;
-    width: 235px;
-    position: absolute;
-    top: 100px;
-    left: -235px;
+    font-style: italic;
     text-align: center;
 }
 
+.text, .text1 {
+    font-size: 29px;
+    color: #ff7b80;
+    margin: 0;
+    padding: 0;
+    width: 235px;
+    position: absolute;
+    top: 35px;
+    left: -235px;
+}
 
-.text span{
+.text span {
     color: #ff5264;
 }
-/*.cookies1 {*/
-    /*overflow: hidden;*/
-    /*max-width:1px;*/
-/*}*/
+
+#cookie3 {
+    margin-left: 6px;
+}
+
+.cookies {
+    display: inline-block;
+    position: relative;
+    top: 94px;
+}
+
+.cookie {
+    display: none;
+}
+
+.caption {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.93);
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    -webkit-transition: all 0.3s cubic-bezier(0.4, 0, 1, 1) 0s;
+    -o-transition: all 0.3s cubic-bezier(0.4, 0, 1, 1) 0s;
+    -moz-transition: all 0.3s cubic-bezier(0.4, 0, 1, 1) 0s;
+    transition: all 0.3s cubic-bezier(0.4, 0, 1, 1) 0s;
+}
+
+.caption h2 {
+    margin: 115px 0 15px;
+    padding: 0 10px;
+}
+
+.caption a.btn {
+    width: 100%;
+    text-align: center;
+    display: block;
+    background: rgba(255, 47, 47, 0.67);
+    color: #202020;
+    padding: 10px 0;
+    border-radius: 5px;
+    margin: 30px auto 0 auto;
+    text-decoration: none;
+}
+
+#wrapper:hover .caption {
+    top: 0;
+}
+
+#wrapper .caption {
+    position: absolute;
+    top: -100%;
+    left: 0;
+    background: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    height: 100%;
+    color: #fff0f9;
+}
